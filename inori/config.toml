@@ -1,0 +1,7 @@
+qwerty_keybindings = true
+[keybindings]
+seek = "W"
+seek_backwards = "B"
+next_song = "w"
+previous_song = "b"
+delete = "x"
