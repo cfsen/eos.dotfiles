@@ -1,0 +1,71 @@
+// -*- mode: jsonc -*-
+{
+	// "layer": "top", // Waybar at top layer
+	"position": "left", // Waybar position (top|bottom|left|right)
+	"width": 30, // Waybar width
+	"spacing": 4, // Gaps between modules (4px)
+	"output": "DP-3",
+	"modules-left": [
+		"hyprland/workspaces",
+	],
+	"modules-right": [
+		"pulseaudio",
+		"clock"
+	],
+
+	// modules
+
+	"hyprland/workspaces": {
+		"format-icons": {
+			"1": "1",
+			"2": "2", 
+			"3": "3",
+			"4": "4",
+			"5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10",
+            "active": "●",
+            "default": "○"
+		},
+		"on-click": "activate",
+		"sort-by-number": true,
+		"active-only": false,
+		"all-outputs": false,
+		"persistent-workspaces": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		}	
+	},
+	"clock": {
+		"format": "{:%H\n%M}",
+		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+		"format-alt": "{:%Y-%m-%d}"
+	},
+	"pulseaudio": {
+		// "scroll-step": 1, // %, can be a float
+		// "format": "{volume}% {icon} {format_source}",
+		"format": "{icon} {format_source}",
+		"format-bluetooth": "{volume}% {icon} {format_source}",
+		"format-bluetooth-muted": " {icon} {format_source}",
+		"format-muted": " {format_source}",
+		// "format-source": "{volume}% ",
+		"format-source": "",
+		"format-source-muted": "",
+		"format-icons": {
+			"headphone": "",
+			"hands-free": "",
+			"headset": "",
+			"phone": "",
+			"portable": "",
+			"car": "",
+			"default": ["", "", ""]
+		},
+		"on-click": "pgrep pavucontrol && pkill pavucontrol || pavucontrol"
+	},
+}
