@@ -1,6 +1,5 @@
 // -*- mode: jsonc -*-
 {
-	// "layer": "top", // Waybar at top layer
 	"position": "left", // Waybar position (top|bottom|left|right)
 	"width": 30, // Waybar width
 	"spacing": 4, // Gaps between modules (4px)
@@ -39,22 +38,20 @@
 			"2": [],
 			"3": [],
 			"4": [],
-			"5": []
+			"5": [],
+			"6": [],
+			"7": []
 		}	
 	},
 	"clock": {
 		"format": "{:%H\n%M}",
-		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-		"format-alt": "{:%Y-%m-%d}"
+		"tooltip-format": "{:%Y-%m-%d}"
 	},
 	"pulseaudio": {
-		// "scroll-step": 1, // %, can be a float
-		// "format": "{volume}% {icon} {format_source}",
 		"format": "{icon} {format_source}",
 		"format-bluetooth": "{volume}% {icon} {format_source}",
 		"format-bluetooth-muted": " {icon} {format_source}",
 		"format-muted": " {format_source}",
-		// "format-source": "{volume}% ",
 		"format-source": "",
 		"format-source-muted": "",
 		"format-icons": {
