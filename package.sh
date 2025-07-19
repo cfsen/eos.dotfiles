@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "WARNING!"
 echo "This will overwrite the files in this directory."
 echo "Press enter to continue."
