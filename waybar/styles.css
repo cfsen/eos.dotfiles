@@ -38,7 +38,7 @@ button:hover {
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
+    margin-left: 3px;
 }
 
 /* If workspaces is the rightmost module, omit right margin */
@@ -75,7 +75,7 @@ button:hover {
 }
 
 #workspaces button:hover {
-	background-color: #46444B;
+	background-color: #36343B;
 }
 
 #workspaces button.active {
