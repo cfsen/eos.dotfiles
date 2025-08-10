@@ -1,0 +1,1 @@
+pacman -Qqen > ./packages.private
