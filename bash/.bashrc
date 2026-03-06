@@ -23,11 +23,7 @@ img () {
 	kitty icat "$1"
 }
 
-# mpd client
-if [ -f ~/.cargo/bin/inori ]; then
-	alias inori='~/.cargo/bin/inori'
 else
-	alias inori='echo "Error: inori not found."'
 fi
 
 #
