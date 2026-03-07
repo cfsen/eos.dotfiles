@@ -23,7 +23,11 @@ img () {
 	kitty icat "$1"
 }
 
+# rss client
+if [ -f ~/.cargo/bin/eilmeldung ]; then
+	alias eilmeldung='~/.cargo/bin/eilmeldung'
 else
+	alias eilmeldung='echo "Error: eilemdung not found."'
 fi
 
 #
