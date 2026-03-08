@@ -8,7 +8,6 @@ sudo pacman -S hyprland \
 	wtype \
 	jq \
 	hyprpicker \
-	rofi \
 	hyprpaper \
  	fcitx5-im \
 	fcitx5-mozc \
