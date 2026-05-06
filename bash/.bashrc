@@ -18,6 +18,7 @@ PS1='\[\033[35m\][\u@\h \W]\$ \[\033[0m\]'
 alias ls='ls --color=auto'
 alias ll='ls -l --color=auto'
 alias grep='grep --color=auto'
+alias cb='echo -e "\n\n==== BUILD @ $(date "+%Y-%m-%d %H:%M:%S") ====\n\n" && cargo build'
 
 img () {
 	kitty icat "$1"
