@@ -5,6 +5,8 @@
 # If not running interactively, don't do anything (e.g., for scripts)
 [[ $- != *i* ]] && return
 
+export PATH="$HOME/.cargo/bin:$PATH"
+
 export EDITOR="nvim"
 
 # IME
