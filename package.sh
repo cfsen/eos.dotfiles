@@ -12,6 +12,13 @@ mkdir -p ./ghostty/
 mkdir -p ./bash/
 
 cp -v ~/.config/hypr/hyprland.conf ./hyprland/hyprland.conf
+cp -v ~/.config/hypr/autostart.conf ./hyprland/autostart.conf
+cp -v ~/.config/hypr/fixes.conf ./hyprland/fixes.conf
+cp -v ~/.config/hypr/input.conf ./hyprland/input.conf
+cp -v ~/.config/hypr/keybinds.conf ./hyprland/keybinds.conf
+cp -v ~/.config/hypr/look.conf ./hyprland/look.conf
+cp -v ~/.config/hypr/monitors.conf ./hyprland/monitors.conf
+
 cp -v ~/.config/hypr/hyprpaper.conf ./hyprland/hyprpaper.conf
 cp -v ~/.config/hypr/hyprlock.conf ./hyprland/hyprlock.conf
 
