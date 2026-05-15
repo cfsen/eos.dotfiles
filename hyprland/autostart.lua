@@ -1,0 +1,7 @@
+hl.on("hyprland.start", function ()
+    hl.exec_cmd("hyprpaper")
+    hl.exec_cmd("fcitx5 -d")
+    hl.exec_cmd("firefox --class=browser", { workspace = 1  })
+    hl.exec_cmd("ghostty --title=nvim-hyprland-ws2", { workspace = 2 })
+    hl.exec_cmd("ghostty --class=rmpc --title=rmpc -e rmpc", { workspace = "special:magic" })
+end)
