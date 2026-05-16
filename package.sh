@@ -11,13 +11,13 @@ mkdir -p ./rmpc/themes/
 mkdir -p ./ghostty/
 mkdir -p ./bash/
 
-cp -v ~/.config/hypr/hyprland.conf ./hyprland/hyprland.conf
-cp -v ~/.config/hypr/autostart.conf ./hyprland/autostart.conf
-cp -v ~/.config/hypr/fixes.conf ./hyprland/fixes.conf
-cp -v ~/.config/hypr/input.conf ./hyprland/input.conf
-cp -v ~/.config/hypr/keybinds.conf ./hyprland/keybinds.conf
-cp -v ~/.config/hypr/look.conf ./hyprland/look.conf
-cp -v ~/.config/hypr/monitors.conf ./hyprland/monitors.conf
+cp -v ~/.config/hypr/hyprland.lua ./hyprland/hyprland.lua
+cp -v ~/.config/hypr/autostart.lua ./hyprland/autostart.lua
+cp -v ~/.config/hypr/fixes.lua ./hyprland/fixes.lua
+cp -v ~/.config/hypr/input.lua ./hyprland/input.lua
+cp -v ~/.config/hypr/keybinds.lua ./hyprland/keybinds.lua
+cp -v ~/.config/hypr/look.lua ./hyprland/look.lua
+cp -v ~/.config/hypr/monitors.lua ./hyprland/monitors.lua
 
 cp -v ~/.config/hypr/hyprpaper.conf ./hyprland/hyprpaper.conf
 cp -v ~/.config/hypr/hyprlock.conf ./hyprland/hyprlock.conf
