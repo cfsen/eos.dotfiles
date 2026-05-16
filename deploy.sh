@@ -23,10 +23,18 @@ echo "Press enter to continue."
 
 read
 
-mkdir -p ./.config/hypr/
+mkdir -p ~/.config/hypr/
+mkdir -p ~/.config/rmpc/themes/
 mkdir -p ~/.config/ghostty/
 
-cp -v ./hyprland/hyprland.conf ~/.config/hypr/hyprland.conf
+cp -v ./hyprland/hyprland.lua ~/.config/hypr/hyprland.lua
+cp -v ./hyprland/autostart.lua ~/.config/hypr/autostart.lua
+cp -v ./hyprland/fixes.lua ~/.config/hypr/fixes.lua
+cp -v ./hyprland/input.lua ~/.config/hypr/input.lua
+cp -v ./hyprland/keybinds.lua ~/.config/hypr/keybinds.lua
+cp -v ./hyprland/look.lua ~/.config/hypr/look.lua
+cp -v ./hyprland/monitors.lua ~/.config/hypr/monitors.lua
+
 cp -v ./hyprland/hyprpaper.conf ~/.config/hypr/hyprpaper.conf
 cp -v ./hyprland/hyprlock.conf ~/.config/hypr/hyprlock.conf
 
@@ -35,4 +43,4 @@ cp -v ./rmpc/themes/theme.ron ~/.config/rmpc/themes/theme.ron
 
 cp -v ./ghostty/config ~/.config/ghostty/config
 
-cp -v ./.bashrc ~/.
+cp -v ./bash/.bashrc ~/.bashrc
