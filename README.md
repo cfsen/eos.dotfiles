@@ -10,7 +10,7 @@ This repo contains config files for:
 * [rmpc](https://rmpc.mierak.dev/)
 * bash
 
-My neovim config can be found [here](https://github.com/cfsen/kickstart.nvim).
+My neovim config can be found [here](https://github.com/cfsen/nvim.dotfiles).
 
 I use [shunpo](https://github.com/cfsen/shunpo) as a minimalist taskbar and application launcher.
 
